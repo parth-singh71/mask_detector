@@ -1,0 +1,8 @@
+# here you need to specify the files train, test and validation txt # files created in step 1.
+train: /gdrive/My Drive/Colab Notebooks/mask_detector/data/train.txt
+val: /gdrive/My Drive/Colab Notebooks/mask_detector/data/val.txt
+# test: /gdrive/My Drive/Colab Notebooks/mask_detector/data/test.txt
+# number of classes in your dataset
+nc: 2
+# class names
+names: ['no_mask', 'mask']
